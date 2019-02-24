@@ -1,6 +1,6 @@
 'use strict';
 const mediasoup = require('mediasoup');
-
+console.log("Ip: ", process.env.RTC_IPV4)
 const msOptions = {
     rtcIPv4: process.env.RTC_IPV4 || true,
     rtcIPv6: process.env.RTC_IPV6 || false,
